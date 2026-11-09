@@ -7,7 +7,7 @@
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
-    "test": "vitest run"
+    "test": "vitest run && node --test tests/stooq.node.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.115.0",
