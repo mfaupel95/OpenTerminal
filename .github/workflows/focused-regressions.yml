@@ -19,4 +19,4 @@ jobs:
           node-version: "22"
       - name: Run synthetic offline regressions
         run: |
-          node --test server/tests/stooq.test.mjs
+          node --test server/tests/stooq.node.mjs
